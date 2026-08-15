@@ -1,0 +1,62 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Ignored default folder with query files
+/queries/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+# ==========================================
+# 1. Entornos de Desarrollo (IDEs)
+# ==========================================
+
+# Tu configuración de PhpStorm
+.idea/
+*.iml
+*.iws
+
+# La configuración de Visual Studio Code de tus compañeros
+.vscode/
+*.code-workspace
+
+# Otros editores comunes (por si acaso)
+.sublime-workspace
+.sublime-project
+
+# ==========================================
+# 2. Dependencias de PHP (Composer)
+# ==========================================
+vendor/
+
+# ==========================================
+# 3. Variables de Entorno y Credenciales
+# ==========================================
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# ==========================================
+# 4. Archivos del Sistema Operativo
+# ==========================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ==========================================
+# 5. Logs y Archivos Temporales
+# ==========================================
+*.log
+/temp/
+/tmp/
